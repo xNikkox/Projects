@@ -8,7 +8,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 */
 
 
-
+#center {
+    width: 75%;
+    margin: auto;
+       
+}
 
 #header {
     display: flex;
@@ -16,6 +20,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     align-items: center;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
+
 
 }
 
@@ -90,12 +95,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 .container {
   position: relative;
   width: 50%;
- 
+
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
+  
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -178,6 +184,29 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 }
 
 #bodyText {
-     float: left;
+  float: left;
   display: block;
+ 
 }
+
+#h1-div {
+    color: cyan;
+    display: flex;
+    justify-content: center;
+}
+#right-content-center {
+    display: flex;
+    justify-content: center;
+ 
+ }  
+  
+#footer {
+    display: flex;
+    justify-content: center;
+   height: 50px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    background-color: #81F7F3;
+}
+
+

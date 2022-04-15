@@ -190,7 +190,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 }
 
 #h1-div {
-    color: cyan;
+    color: black;
     display: flex;
     justify-content: center;
 }
@@ -200,13 +200,33 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
  
  }  
   
+ #shopify {
+     display: flex;
+     justify-content: center;
+ }
+ 
 #footer {
     display: flex;
-    justify-content: center;
-   height: 50px;
+    justify-content: space-between;
+    
+   height: 75px;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
-    background-color: #81F7F3;
+    background-color: white;
+}
+
+#footer-logo {
+    display: flex;
+    align-items: center;
 }
 
 
+#subscribe {
+   overflow: hidden;
+ 
+}
+
+#payments {
+    display: flex;
+    justify-content: center;
+}

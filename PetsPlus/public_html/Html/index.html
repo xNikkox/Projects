@@ -122,13 +122,171 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
             <h1>Lintless Pet Hair Remover</h1>
             </div>
             
-          
+          <!-- shopify buy button -->
+          <div id="shopify">
+          <div id='product-component-1649982432510'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'pets-plus-com.myshopify.com',
+      storefrontAccessToken: 'f78c9395a28e0e3d243213dd5f5902b7',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '6820378968164',
+        node: document.getElementById('product-component-1649982432510'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "font-family": "Lato, sans-serif",
+        "font-weight": "bold",
+        ":hover": {
+          "background-color": "#00e0e6"
+        },
+        "background-color": "#00f9ff",
+        ":focus": {
+          "background-color": "#00e0e6"
+        }
+      }
+    },
+    "contents": {
+      "img": false,
+      "title": false,
+      "price": false
+    },
+    "text": {
+      "button": "Add to cart"
+    },
+    "googleFonts": [
+      "Lato"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-family": "Lato, sans-serif",
+        "font-weight": "bold",
+        ":hover": {
+          "background-color": "#00e0e6"
+        },
+        "background-color": "#00f9ff",
+        ":focus": {
+          "background-color": "#00e0e6"
+        }
+      }
+    },
+    "googleFonts": [
+      "Lato"
+    ],
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Lato, sans-serif",
+        "font-weight": "bold",
+        ":hover": {
+          "background-color": "#00e0e6"
+        },
+        "background-color": "#00f9ff",
+        ":focus": {
+          "background-color": "#00e0e6"
+        }
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    },
+    "googleFonts": [
+      "Lato"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Lato, sans-serif",
+        "font-weight": "bold",
+        "background-color": "#00f9ff",
+        ":hover": {
+          "background-color": "#00e0e6"
+        },
+        ":focus": {
+          "background-color": "#00e0e6"
+        }
+      }
+    },
+    "googleFonts": [
+      "Lato"
+    ]
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+          </div>
             
             <!-- bullet list and spacing -->
             <ul>
                 
                 
-                <br><br><br><br><br><br><br><br>
+               <br><br><br><br><br>
                 
                 <li>VERSATILE & LIGHT<br><br>
 Keep your home free from loose lint and hair. Pet's Choice hair removal roller works like a charm on furniture, upholstery,
@@ -148,15 +306,86 @@ If you are not happy with our product, send us a message within 30 days and we w
             </div>
       </div>
         
+        <br><br><br>
+             <!-- footer -->
+       <div id="footer">
+          
+           <!-- payment footer div -->
+           <div id="footer-logo">
+                <img src="../Images/petslogo(1).png" alt="logo" width="100" height="100"/>
+                
+           </div>  
+           
+           <!-- footer links -->
+           <div id="footer-links">
+               <a href="index.html"><img src="../Images/house-solid.svg" width="20" height="20" alt="home-image-link"/>Home</a>
+               <a href="About.html"><img src="../Images/person-solid.svg" width="20" height="20" alt="home-image-link"/>About</a>
+               <a href="index.html"><img src="../Images/envelope-solid.svg" width="20" height="20" alt="home-image-link"/>Contact Us</a>  
+           </div>
+           
+           <div id="textfooter">
+               <div style="padding-bottom: 18px;font-size : 24px;">Newsletter Subscription</div>
+           </div>
+           
+           <!-- subscribe -->
+           <div id="subscribe">
+                <form method="post" action="//submit.form" onSubmit="return validateForm();">
+<div style="max-width: 400px;">
+
+</div>
+
+
+<div style="padding-bottom: 1px;">EMAIL<span style="color: red;"> *</span><br/>
+<input type="text" id="data_4" name="data_4" style="max-width : 300px;" class="form-control"/>
+</div>
+<div style="padding-bottom: 18px;"><input name="skip_Submit" value="SUBSCRIBE" type="submit"/></div>
+<div>
+<div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to email</a></div>
+<script src="https://www.100forms.com/js/FORMKEY:F93ER9MRX2X8/SEND:xxnikkoxx@live.com" type="text/javascript"></script>
+</div>
+</form>
+
+<script type="text/javascript">
+function validateForm() {
+if (isEmpty(document.getElementById('data_2').value.trim())) {
+alert('NAME is required!');
+return false;
+}
+if (isEmpty(document.getElementById('data_4').value.trim())) {
+alert('EMAIL is required!');
+return false;
+}
+if (!validateEmail(document.getElementById('data_4').value.trim())) {
+alert('EMAIL must be a valid email address!');
+return false;
+}
+return true;
+}
+function isEmpty(str) { return (str.length === 0 || !str.trim()); }
+function validateEmail(email) {
+var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
+return isEmpty(email) || re.test(email);
+}
+</script>
+
+           </div>
+           
+       </div> 
        
 </div>
-        <br><br><br><br>
+        <br><br>
+        <div id="payments">
+             <img src="../Images/pay-1.svg" alt="pay-icon" width="25" height="25"/>
+              <img src="../Images/pay-2.svg" alt="pay-icon" width="25" height="25"/>
+               <img src="../Images/pay-3.svg" alt="pay-icon" width="25" height="25"/>
+                <img src="../Images/pay-4.svg" alt="pay-icon" width="25" height="25"/>
+                 <img src="../Images/pay-5.svg" alt="pay-icon" width="25" height="25"/>
+                  <img src="../Images/pay-6.svg" alt="pay-icon" width="25" height="25"/>
+                   <img src="../Images/pay-7.svg" alt="pay-icon" width="25" height="25"/>
+        </div>
         
         
         
-        <!-- footer -->
-       <div id="footer">
-               
-                  </div> 
+   
     </body>
 </html>

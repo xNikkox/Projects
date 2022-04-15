@@ -220,6 +220,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     align-items: center;
 }
 
+#footer-links {
+    display: flex;
+    align-items: center;
+}
+
+#textfooter {
+    display: flex;
+    align-items: center;
+}
 
 #subscribe {
    overflow: hidden;

@@ -1,0 +1,54 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : May 18, 2022, 7:36:30 PM
+    Author     : Nikko
+*/
+
+#header {
+    background-color: #343c63;
+    height: 400px;
+   
+}
+
+.main-nav {
+    display: flex;
+    padding: 0px 100px 0px 100px;
+    list-style: none;
+}
+
+
+.main-nav li:first-child {
+    margin-right: auto;
+}
+
+.main-nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#header-content {
+   display: flex;
+   justify-content: center;
+   
+   padding-top: 100px;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+
+#text-1 {
+    margin-right: auto;
+    width: 50%;
+}
+
+#image-1 {
+ margin-left: auto;
+  background-color: grey;
+  width: 50%;
+  
+  text-align: center;
+ 
+}

@@ -62,7 +62,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 .box-1 {
     display: flex;
     justify-content: center;
-    gap: 60px;
+    
+   
 }
 
 .box-2 {
@@ -100,6 +101,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 .block-6 {
     display: flex;
     justify-content: center;
- 
+   gap: 60px
     
 }

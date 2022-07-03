@@ -62,12 +62,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 .box-1 {
     display: flex;
     justify-content: center;
-    
    
 }
 
 .box-2 {
-   
+    
 }
 
 .rect-1 {
@@ -75,6 +74,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     height: 100px;
     width: 100px;
     border-radius: 10px;
+    
+
 }
 
 .rect-2 {
@@ -101,6 +102,75 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 .block-6 {
     display: flex;
     justify-content: center;
-   gap: 60px
+   align-items: center;
+   padding: 120px;
+    gap: 10px;
+}
+
+.block-3 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    text-align: center;
     
+    background-color: rgba(128, 128, 128, 0.192);
+    height: 300px;
+}
+
+.quote {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-style: italic;
+    font-weight: 150;
+    font-size: 24px;
+}
+
+.quotee {
+    margin-left: 400px;
+}
+
+.block-4 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 120px;
+    padding: 30px;
+    color: white;
+    background-color: #5892ff;
+    border-radius: 10px;
+    gap: 120px;
+}
+
+.box-8 {
+    align-self: center;
+}
+
+.calltoaction {
+    color: white;
+    
+}
+
+.sign-up-text {
+    color:rgba(253, 246, 246, 0.658);
+    
+}
+
+.sign-up-2 {
+    color: white;
+    background-color: #5892ff;
+    border-color: white;
+   border-radius: 5px;
+}
+
+.block-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #343c63;
+    height: 100px
+}
+
+.box-7 {
+    color: white;
 }
